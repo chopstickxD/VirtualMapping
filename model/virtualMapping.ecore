@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="virtualMapping" nsURI="platform:/plugin/VirtualMapping/model/virtualMapping.ecore"
+    nsPrefix="virtualMapping">
+  <eClassifiers xsi:type="ecore:EClass" name="VirtualNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="agents" upperBound="-1"
+        eType="ecore:EClass ../../mbse_metamodels/model/requirements.ecore#//Agent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="reqContainer" lowerBound="1"
+        eType="ecore:EClass ../../mbse_metamodels/model/requirements.ecore#//Container"
+        containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
